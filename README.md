@@ -1,4 +1,4 @@
-# PSO
+# Particle Swarm Optimization (PSO)
 This repoistory contains research about Particle Swarm Optimization (PSO) and it's implementation to optimize Artificial Neural Network (ANN)
 
 ## Including
@@ -31,12 +31,18 @@ This repoistory contains research about Particle Swarm Optimization (PSO) and it
  - scipy	1.6.0	
  
  ## Run example with MNIST
- ```bash
- python example_mnist.py
+  ```bash
+ $ git clone https://github.com/aboelkassem/PSO.git
+ $ cd PSO
+ $ python example_mnist.py
  ```
 
 ## Demo and The Efficient of Results
 the following diagram and reports shows the performance of testing data of the dataset including 10 classes (digits classes)
 
-<img src="https://res.cloudinary.com/dvdcninhs/image/upload/v1610484745/testingPSO_eejk9w.png" width="300" hight="300"/>
-<img src="https://res.cloudinary.com/dvdcninhs/image/upload/v1610484745/plotPSO_oiqreo.png" width="300" hight="300"/>
+<p align="center" width="100%">
+  <img src="https://res.cloudinary.com/dvdcninhs/image/upload/v1610484745/testingPSO_eejk9w.png" width="500" hight="500"/>
+</p>
+<p align="center" width="100%">
+  <img src="https://res.cloudinary.com/dvdcninhs/image/upload/v1610484745/plotPSO_oiqreo.png" width="500" hight="500"/>
+</p>
