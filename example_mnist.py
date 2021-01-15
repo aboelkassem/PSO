@@ -94,7 +94,7 @@ swarm = pso.ParticleSwarm(obj_func, num_dimensions=dim_weights(shape), num_parti
 i = 0
 best_scores = [(i, swarm.best_score)]
 print_best_particle(best_scores[-1])
-while swarm.best_score > 1e-6 and i < 500:
+while i < 500:
     swarm._update()
     i = i + 1
     if swarm.best_score < best_scores[-1][1]:
